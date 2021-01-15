@@ -13,7 +13,7 @@ header{
 }
 
 .container{
-  width: 560px;
+  width: 556px;
   margin:0 auto;
 }
 
@@ -29,7 +29,9 @@ div .card{
   display: inline-block;
   width: 120px;
   height: 130px;
-  background-color: red;
   margin: 15px 8px;
   border-radius: 10px;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-size: cover;
 }
