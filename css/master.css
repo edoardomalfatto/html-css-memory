@@ -26,9 +26,10 @@ header{
 }
 
 div .card{
-  width: 120px;
-  height: 140px;
-  background-color: red;
   display: inline-block;
+  width: 120px;
+  height: 130px;
+  background-color: red;
   margin: 15px 8px;
+  border-radius: 10px;
 }
