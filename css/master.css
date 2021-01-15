@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(110, 217, 233);
+}
+
+header{
+  margin: 30px;
+}
+
+.container{
+  width: 560px;
+  margin:0 auto;
+}
+
+.title h1{
+  text-align: center;
+}
+
+.card_row1{
+  margin:0 auto;
+}
+
+div .card{
+  width: 120px;
+  height: 140px;
+  background-color: red;
+  display: inline-block;
+  margin: 15px 10px;
+}
