@@ -34,4 +34,19 @@ div .card{
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
   background-size: cover;
+  position: relative;
+}
+
+#scoperta{
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-color: white;
+  background-position: center;
+  background-size:80%;
+  background-repeat: no-repeat;
+}
+.card#scoperta span{
+  display: inline-block;
+  position: absolute;
+  bottom: 3px;
+  left:30%;
 }
