@@ -5,21 +5,24 @@
 }
 
 body {
-  background-color: rgb(110, 217, 233);
+font-family: 'Hachi Maru Pop', cursive;
+ background-color: rgb(110, 217, 233);
 }
 
 header {
-  margin: 30px;
+  margin: 5px;
 }
 
 .container {
-  width: 556px;
+  width: 573px;
   margin:0 auto;
   relative;
 }
 
 .title h1 {
   text-align: center;
+  font-weight: 900;
+  color: #ffc000;
 }
 
 .card_row1 {
@@ -32,11 +35,12 @@ div .card {
   height: 130px;
   margin: 15px 8px;
   border-radius: 10px;
-    background-color: white;
+  background-color: white;
   background-repeat: repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
+  box-shadow: 3px 3px 2px red;
 }
 
 .card img {
@@ -69,21 +73,38 @@ div .card {
   background-image: url("../img/noun_Tram_3134750.png");
 }
 
-
 #img2_b {
  background-image: url("../img/noun_air_balloon_3134741.png");
 }
+#img2_b span{
+  z-index: 1;
+}
 
 .card span {
+  display: inline-block;
   position: absolute;
   bottom: 3px;
   left:30%;
   z-index: -2;
+  font-weight: bolder;
+  color: red;
 }
+.card span.medium_lenght {
+  left:18%;
+  color: blue;
+}
+.card span.large_lenght{
+  left:10%;
+  color:green;
+}
+
 
 #footer{
   position: absolute;
   left:46%;
   margin-bottom: 20px;
   padding: 10px;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-weight: bolder;
+  color: #ffc000;
 }
